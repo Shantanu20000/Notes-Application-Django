@@ -1,5 +1,5 @@
-# Simple Notes App
-This is a simple notes app built with React and Django.
+# Simple Notes Application
+This is a simple Notes Aplplication built with React and Django.
 
 ## Requirements
 1. Python 3.9
@@ -7,17 +7,23 @@ This is a simple notes app built with React and Django.
 3. React
 
 ## Installation
+
+Install Docker and Docker-Compose git
+```
+apt install docker.io docker-compose git -y
+```
 1. Clone the repository
 ```
-git clone https://github.com/rajatpzade/django-notes-app.git
+git clone https://github.com/Shantanu20000/Notes-Application-Django.git
+
 ```
 
-2. Build the app
+2. Build the Application
 ```
 docker build -t notes-app .
 ```
 
-3. Run the app
+3. Run the Application
 ```
 docker run -d -p 8000:8000 notes-app:latest
 ```
